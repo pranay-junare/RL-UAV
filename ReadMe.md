@@ -8,11 +8,11 @@
 ![alt text](assets/simulation_SAC.gif)
 
 ## Problem Statement
- Perception and Autonomy for UAVs in tight indoor spaces is a highly challenging task especially in particular two scenarios:
-- No prior maps
+ Perception and Autonomy for UAVs in tight indoor spaces is a highly challenging task especially in two particular scenarios:
+- No prior maps.
 - No GPS coordinates.
 
-The goal is to autonomously navigate through the below Airsim environment which has circular holes carved on the walls. The robot/agent should predict continuous actions(v) based on input camera observations(I) without colliding to any of the walls.
+The goal is to autonomously navigate through the below Airsim environment which has circular holes carved on the walls. The robot/agent should traverse maximum number of holes by predicting the continuous actions(v) based on input camera observations(I) without colliding to any of the walls.
 ## Environment
 <p float="left">
   <img src="./assets/Env1.png" width="400" />
